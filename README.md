@@ -22,3 +22,36 @@ note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose bac
 ```
 
 </details>
+
+---
+
+## Reference
+
+<details>
+
+[How to Install Python pip on Ubuntu 22.04](https://linuxhint.com/install-python-pip-ubuntu-22-04/)
+
+[pip/pip3のパッケージインストール時にWARNINGが出るときの対応 – EXCEEDSYSTEM](https://www.exceedsystem.net/2020/09/29/1321/)
+
+[panic!で回復不能なエラー - The Rust Programming Language 日本語版](https://doc.rust-jp.rs/book-ja/ch09-01-unrecoverable-errors-with-panic.html)
+
+[【Python】round()を使って小数点の四捨五入を行う！｜フライテック](https://flytech.work/blog/21651/)
+
+[Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=dafaeef0233d4424fdaf3626595e40f2)
+
+[Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=34e0e3608accdca4072163d2b4063d89)
+
+[Rust 文字列を指定した区切り文字で区切って逆順にする | mebee](https://mebee.info/2022/08/06/post-76007/)
+
+[Rustで「文字が特定の文字集合に含まれるか」を判定するのはどれが速いか | κeenのHappy Hacκing Blog](https://keens.github.io/blog/2019/10/06/rustde_mojigatokuteinomojishuugounifukumareruka_wohanteisurunohadoregahayaika/)
+
+[convert i32 to a string rust Code Example](https://www.codegrepper.com/code-examples/rust/convert+i32+to+a+string+rust)
+
+[Carbon Language が発表されたので実際に動かしてみた](https://zenn.dev/blendthink/articles/d1a3b397bdae82)
+
+[C++ compiler support - cppreference.com](https://en.cppreference.com/w/cpp/compiler_support)
+
+[Rustでの整数オーバーフローまとめ - Qiita](https://qiita.com/garkimasera/items/c5e06de1a7c66aa7652a)
+
+</details>
+
