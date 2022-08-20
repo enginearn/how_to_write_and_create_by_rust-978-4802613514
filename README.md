@@ -1,7 +1,7 @@
 <details>
 <summary>RUST_BACKTRACE=1を付けて実行</summary>
 
-``` 
+```
 RUST_BACKTRACE=1 ./caesar_enc.exe
 Please enter a text to encrypt:
 HellO WOrLd
@@ -53,5 +53,16 @@ note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose bac
 
 [Rustでの整数オーバーフローまとめ - Qiita](https://qiita.com/garkimasera/items/c5e06de1a7c66aa7652a)
 
-</details>
+[enginearn/Rust_the_Book](https://github.com/enginearn/Rust_the_Book)
 
+[トレンド - Qiita](https://qiita.com/trend)
+
+[記事を探す | Zenn](https://zenn.dev/articles/explore?order=alltime)
+
+[Pythonでリストの要素をシャッフル（random.shuffle, sample） | note.nkmk.me](https://note.nkmk.me/python-random-shuffle/)
+
+[Pythonを使ってランダムな文字列を生成 - Qiita](https://qiita.com/Scstechr/items/c3b2eb291f7c5b81902a)
+
+[無料 英和辞書データ ダウンロード - ブラウザで使えるWeb便利ツール](https://kujirahand.com/web-tools/EJDictFreeDL.php)
+
+</details>

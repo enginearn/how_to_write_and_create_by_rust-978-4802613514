@@ -1,11 +1,11 @@
 fn main() {
     for i in 1..101 {
         if i % 3 == 0 && i % 5 == 0 {
-            println!("fizzbuzz");
+            println!("FizzBuzz");
         } else if i % 3 == 0 {
-            println!("fizz");
+            println!("Fizz");
         } else if i % 5 == 0 {
-            println!("buzz");
+            println!("Buzz");
         } else {
             println!("{}", i);
         }
@@ -13,10 +13,10 @@ fn main() {
 
     for i in 1..101 {
         match (i % 3 == 0, i % 5 == 0) {
-            (true, true) => println!("match! fizzbuzz!"),
-            (true, false) => println!("match! fizz!"),
-            (false, true) => println!("match! buzz!"),
-            (false, false) => println!("match! {}", i),
+            (true, true) => println!("match! FizzBuzz!"),
+            (true, false) => println!("match! Fizz!"),
+            (false, true) => println!("match! Buzz!"),
+            (false, false) => println!("{}", i),
         }
     }
 }
