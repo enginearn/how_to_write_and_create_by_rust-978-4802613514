@@ -1,11 +1,12 @@
-/*
-Eval RPN
-Example
+// スラッシュ3つでライブラリドキュメントになる
+/// Eval RPN
+/// # Example
+/// ```
+/// let src = String::from("1 2 + 3 4 + *");
+/// let ans = eval_rpn::eval(src).unwrap();
+/// println!("{}", ans); // 21
+/// ```
 
-let src = String::from("1 2 + 3 4 + *");
-let ans = eval_rpn::eval(src).unwrap();
-println!("{}", ans); // 21
-*/
 
 pub fn eval(src: String) -> Result<f64, String> {
     let mut stack: Vec<f64> = vec![];

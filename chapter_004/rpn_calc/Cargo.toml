@@ -1,6 +1,9 @@
 [package]
-name = "rpn_calc"
+name = "rpn_calcurator"
 version = "0.1.0"
+authors = ["enginearn"]
+description = "RPN(Reverse Polish Notation) calculator"
+license = "MIT"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
