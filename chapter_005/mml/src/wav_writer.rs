@@ -2,7 +2,7 @@ use hound::WavWriter;
 use std::f32::consts::PI;
 use std::io::{Seek, Write};
 
-const SAMPLE_RATE: f32 = 44100;
+const SAMPLE_RATE: f32 = 44100.0;
 
 #[derive(Debug)]
 pub struct Note {
@@ -11,6 +11,7 @@ pub struct Note {
 }
 
 pub fn write(filename: &str, notes: Vec<Note>, bpm: f32) {
+    // 16bit, 1ch, 44100Hz
     let spec = hound::WavSpec {
         channels: 1,
         sample_rate: SAMPLE_RATE as u32,
@@ -19,9 +20,11 @@ pub fn write(filename: &str, notes: Vec<Note>, bpm: f32) {
     };
     let mut writer = WavWriter::create(filename, spec).unwrap();
 
-    for note in notes.nto_iter() {
+    for note in notes.into_iter() {
+        // 4分音符の長さを計算
         let len = (4.0 / note.len as f32 * (60.0 / bpm) * SAMPLE_RATE) as i32;
 
+        // 音の高さを計算
         let tone = if note.no >= 0 {
             440.0 * 2.0f32.powf((note.no - 69) as f32 / 12.0)
         } else {
@@ -31,9 +34,9 @@ pub fn write(filename: &str, notes: Vec<Note>, bpm: f32) {
     }
 }
 
-fn write_tone<W>(writer: &mut WavWriter<W>, tone: f32, len: u32)
+fn write_tone<W>(writer: &mut WavWriter<W>, tone: f32, len: i32)
 where
-    W: Write + Seek,
+    W: Write + Seek
 {
     for i in 0..len {
         let t = i as f32 / SAMPLE_RATE;
